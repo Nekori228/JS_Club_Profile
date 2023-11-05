@@ -1,0 +1,75 @@
+.secion1 {
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.secion1_low {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 5px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    margin: 5px;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.name {
+    padding-left: 30px;
+    text-align: start;
+    display: inline-block;
+    justify-content: end
+}
+
+.number {
+    text-align: end;
+    display: inline-block;
+}
+
+.color_container {
+    width: 200px;
+    background: #C2C0C0;
+}
+
+.padding_cont {
+    padding-top: 3%;
+}
+
+hr {
+    border: 1px solid #C2C0C0; /* Ширина, цвет и стиль линии */
+    width: 70%; /* Ширина линии */
+    margin: 0 auto; /* Центрирование линии */
+}
+
+.text_cont{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 71%; /* Ширина линии */
+}
