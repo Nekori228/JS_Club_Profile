@@ -135,7 +135,7 @@ thead th {
 tbody td {
 
     padding: 5px;
-    text-align: left;
+    text-align: center;
     border-right: 1px solid #5A9645;
     border-left: 1px solid #5A9645;
     border-bottom: none;
@@ -158,8 +158,9 @@ tbody td:hover {
 }
 
 .div_color {
-    margin-top: 5px;
-    margin-bottom: 5px;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
     width: 72%;
     background-color: #5A9645;
     border-radius: 5px;
@@ -233,8 +234,7 @@ textarea {
 .text_buttom {
     color: #FFF;
     text-align: center;
-    font-family: Inter;
-    font-size: 14px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -258,4 +258,39 @@ button:hover {
 .buttom_cont {
     display: flex;
     justify-content: space-around;
+}
+
+.block {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.3s;
+}
+
+.block img {
+    width: 100%;
+    height: auto;
+}
+
+.block p {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.block_color {
+    width: 11%;
+    height: 32%;
+}
+
+.block_color:hover {
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px 0px #5A9645;
+
 }
