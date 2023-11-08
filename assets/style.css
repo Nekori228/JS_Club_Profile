@@ -274,7 +274,8 @@ button:hover {
 }
 
 .block img {
-    width: 100%;
+    padding: 10%;
+    width: 65%;
     height: auto;
 }
 
@@ -285,8 +286,12 @@ button:hover {
 }
 
 .block_color {
-    width: 11%;
+    width: 14%;
     height: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .block_color:hover {
